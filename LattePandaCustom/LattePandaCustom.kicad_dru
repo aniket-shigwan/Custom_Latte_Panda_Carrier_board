@@ -1,0 +1,26 @@
+(version 1)
+
+# =========================================================
+# 100Ω Differential Pairs (Gigabit Ethernet)
+# =========================================================
+
+(rule "100ohm_diffpair_skew"
+    (condition "A.NetClass == '100Ω'")
+    (constraint skew
+        (max 0.15mm)
+        (within_diff_pairs)
+    )
+)
+
+# =========================================================
+# 90Ω Differential Pairs
+# USB / HDMI / PCIe / M.2
+# =========================================================
+
+(rule "90ohm_diffpair_skew"
+    (condition "A.NetClass == '90Ω'")
+    (constraint skew
+        (max 0.10mm)
+        (within_diff_pairs)
+    )
+)
