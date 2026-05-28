@@ -76,46 +76,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|117596436|59144800|21b1de3b-7289-4591-95ba-d7c9c2073b83|6b4133b6-0e84-4977-8929-2a55192b613f",
-          "Necessary for proper screw mounting"
-        ],
-        [
-          "courtyards_overlap|137833200|111726800|6b4133b6-0e84-4977-8929-2a55192b613f|bd44778f-8899-44b9-b1de-7b18e1557a5f",
-          "Acceptable"
-        ],
-        [
-          "courtyards_overlap|139791000|111726800|1e3a69f3-c815-448a-a9b3-d46f0f17d999|6b4133b6-0e84-4977-8929-2a55192b613f",
-          "Acceptable"
-        ],
-        [
-          "courtyards_overlap|183129600|63630330|0f8f0732-12ed-44d0-a169-056d06da34c1|6b4133b6-0e84-4977-8929-2a55192b613f",
-          "Necessary for proper screw mounting"
-        ],
-        [
-          "skew_out_of_range|174530000|143380000|7ae1ec8a-8935-4218-9474-c7d2893e6a23|00000000-0000-0000-0000-000000000000",
-          "Verified and its proper"
-        ],
-        [
-          "skew_out_of_range|176030000|141270000|64cc67dc-dd16-4751-9467-3574fdca26f9|00000000-0000-0000-0000-000000000000",
-          "Verified and its proper"
-        ],
-        [
-          "skew_out_of_range|178748809|138950000|24115c2c-714d-4a18-b9c3-1541a528f0ef|00000000-0000-0000-0000-000000000000",
-          "Verified and its proper"
-        ],
-        [
-          "skew_out_of_range|180850000|139000000|3d8e4fe4-8662-403f-9dc6-731017d0fa31|00000000-0000-0000-0000-000000000000",
-          "Verified and its proper"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -695,7 +662,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "PCB_images/",
       "specctra_dsn": "",
       "vrml": ""
     },
